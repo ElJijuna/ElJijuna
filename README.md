@@ -17,6 +17,9 @@ Software Engineer focused on building clean, reusable solutions with modern Java
 ### Currently Working On
 
 - **[MonitoringTool](https://github.com/ElJijuna/MonitoringTool)** — a reusable monitoring library
+- **[express-memorize](https://github.com/ElJijuna/express-memorize)** — Express middleware for response memoization
+- **[Bitbucket Datacenter API Client](https://github.com/ElJijuna/bitbucket-datacenter-api-client)** — typed API client for Bitbucket Datacenter (self-hosted)
+- **[Query Client](https://github.com/ElJijuna/query-client)** — reusable HTTP query client library
 - Building private projects and reusable internal libraries
 
 ---
