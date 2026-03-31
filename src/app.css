@@ -1,0 +1,223 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: var(--gnome-font-family, Cantarell, Inter, system-ui, sans-serif);
+  background-color: var(--gnome-window-bg-color, #fafafa);
+}
+
+/* ── Layout ─────────────────────────────────────────────────────────────── */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app main {
+  flex: 1;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* ── Sections ───────────────────────────────────────────────────────────── */
+
+.section {
+  padding: 96px 24px;
+}
+
+.section-alt {
+  padding: 96px 24px;
+  background-color: var(--gnome-card-bg-color, rgba(0, 0, 0, 0.03));
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px !important;
+}
+
+.section-description {
+  text-align: center;
+  margin-bottom: 20px !important;
+}
+
+/* ── Nav menu (mobile popover) ──────────────────────────────────────────── */
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 4px;
+  min-width: 160px;
+}
+
+/* ── Hero ───────────────────────────────────────────────────────────────── */
+
+.hero-section {
+  padding: 96px 24px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+}
+
+.hero-bio {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+/* ── About: two-column grid ─────────────────────────────────────────────── */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.about-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-heading {
+  margin-bottom: 20px !important;
+  margin-top: 0;
+}
+
+.mt-lg {
+  margin-top: 20px !important;
+}
+
+.chip-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* ── Skills ─────────────────────────────────────────────────────────────── */
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.skill-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+/* ── Projects ───────────────────────────────────────────────────────────── */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 16px;
+  margin-top: 0;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+  cursor: pointer;
+  transition: transform 100ms ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+}
+
+.project-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.project-card-footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--gnome-borders-color, rgba(0, 0, 0, 0.08));
+}
+
+.project-stars {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+  color: var(--gnome-warning-color, #e5a50a);
+}
+
+/* ── Contact ────────────────────────────────────────────────────────────── */
+
+.contact-banner {
+  margin-bottom: 24px;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+/* ── Footer ─────────────────────────────────────────────────────────────── */
+
+.footer {
+  padding: 24px;
+  text-align: center;
+  border-top: 1px solid var(--gnome-borders-color, rgba(0, 0, 0, 0.08));
+}
+
+/* ── Responsive ─────────────────────────────────────────────────────────── */
+
+@media (max-width: 640px) {
+  .section,
+  .section-alt {
+    padding: 64px 16px;
+  }
+
+  .hero-section {
+    padding: 64px 16px 48px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}
