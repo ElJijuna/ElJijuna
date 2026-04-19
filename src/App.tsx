@@ -48,10 +48,49 @@ const skills = [
 const projects = [
   {
     name: "gnome-ui",
-    description: "React monorepo bringing GNOME HIG to the web",
+    description:
+      "React monorepo bringing GNOME HIG to the web · core, react, hooks, charts, layout, platform, icons",
     language: "TypeScript",
     stars: 0,
     url: "https://github.com/ElJijuna/gnome-ui",
+  },
+  {
+    name: "api-hooks",
+    description:
+      "React hooks built on TanStack Query for API integrations · bp, gh, npm, osv",
+    language: "TypeScript",
+    stars: 0,
+    url: "https://github.com/ElJijuna/api-hooks",
+  },
+  {
+    name: "BragiUI",
+    description: "React component library built with Vite",
+    language: "TypeScript",
+    stars: 0,
+    url: "https://github.com/ElJijuna/BragiUI",
+  },
+  {
+    name: "SSignal",
+    description: "Signal pattern implementation for reactive state management",
+    language: "TypeScript",
+    stars: 0,
+    url: "https://github.com/ElJijuna/SSignal",
+  },
+  {
+    name: "floaty",
+    description:
+      "Floating widget with drag, collapse/expand, and pin functionality",
+    language: "TypeScript",
+    stars: 0,
+    url: "https://github.com/ElJijuna/floaty",
+  },
+  {
+    name: "infinity-fetch",
+    description:
+      "Configurable recursive/infinite fetch utility for paginated APIs — Node.js and browser",
+    language: "TypeScript",
+    stars: 0,
+    url: "https://github.com/ElJijuna/infinity-fetch",
   },
   {
     name: "MonitoringTool",
@@ -70,16 +109,52 @@ const projects = [
     url: "https://github.com/ElJijuna/express-memorize",
   },
   {
-    name: "query-client",
+    name: "useQuery",
     description:
-      "Lightweight TypeScript client for building and managing API queries",
+      "Lightweight query client with caching, garbage collection, retry logic, and subscriptions",
     language: "TypeScript",
     stars: 1,
-    url: "https://github.com/ElJijuna/query-client",
+    url: "https://github.com/ElJijuna/useQuery",
+  },
+  {
+    name: "MyNpmLens",
+    description: "PWA to track and monitor your favourite npm packages at a glance",
+    language: "TypeScript",
+    stars: 0,
+    url: "https://github.com/ElJijuna/MyNpmLens",
+  },
+  {
+    name: "vite-legacy-interop",
+    description: "Vite plugin for seamless legacy module interop",
+    language: "TypeScript",
+    stars: 0,
+    url: "https://github.com/ElJijuna/vite-legacy-interop",
+  },
+  {
+    name: "vite-magic-tree-shaking",
+    description:
+      "Auto-generate tree-shakeable lib entries for Vite build.lib.entry",
+    language: "TypeScript",
+    stars: 0,
+    url: "https://github.com/ElJijuna/vite-magic-tree-shaking",
+  },
+  {
+    name: "vite-legacy-pass-through",
+    description: "Vite plugin to pass through legacy assets without transformation",
+    language: "TypeScript",
+    stars: 0,
+    url: "https://github.com/ElJijuna/vite-legacy-pass-through",
+  },
+  {
+    name: "typedoc-gnome-template",
+    description: "TypeDoc theme with GNOME visual identity",
+    language: "TypeScript",
+    stars: 0,
+    url: "https://github.com/ElJijuna/typedoc-gnome-template",
   },
   {
     name: "super-configs",
-    description: "Group configurations of linters, prettiers, jest, etc",
+    description: "Shared configurations for ESLint, Prettier, Jest, and more",
     language: "TypeScript",
     stars: 0,
     url: "https://github.com/ElJijuna/super-configs",

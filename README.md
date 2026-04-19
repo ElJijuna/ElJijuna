@@ -23,22 +23,26 @@ Software Engineer focused on building clean, reusable solutions with modern Java
 
 | Repository | Description | Pages |
 |------------|-------------|-------|
-| [gnome-ui](https://github.com/ElJijuna/gnome-ui) | React monorepo bringing GNOME Human Interface Guidelines to the web with components and icons | [gnome-ui.org](http://gnome-ui.org/) |
+| [gnome-ui](https://github.com/ElJijuna/gnome-ui) | React monorepo bringing GNOME HIG to the web · `core` `react` `hooks` `charts` `layout` `platform` `icons` | [gnome-ui.org](http://gnome-ui.org/) |
+| [api-hooks](https://github.com/ElJijuna/api-hooks) | React hooks built on TanStack Query for API integrations · `@api-hooks/bp` `@api-hooks/gh` `@api-hooks/npm` `@api-hooks/osv` | — |
+| [BragiUI](https://github.com/ElJijuna/BragiUI) | React component library built with Vite | — |
+| [SSignal](https://github.com/ElJijuna/SSignal) | Signal pattern implementation for reactive state management | — |
+| [floaty](https://github.com/ElJijuna/floaty) | Floating widget with drag, collapse/expand, and pin functionality | — |
+| [infinity-fetch](https://github.com/ElJijuna/infinity-fetch) | Configurable recursive/infinite fetch utility for paginated APIs — Node.js and browser | [docs](https://eljijuna.github.io/infinity-fetch/) |
 | [express-memorize](https://github.com/ElJijuna/express-memorize) | Express middleware for caching responses with customizable strategies and performance optimization | [docs](https://eljijuna.github.io/express-memorize/) |
-| [infinity-fetch](https://github.com/ElJijuna/infinity-fetch) | Lightweight JavaScript utility for making flexible, reusable HTTP requests | [docs](https://eljijuna.github.io/infinity-fetch/) |
-| [query-client](https://github.com/ElJijuna/query-client) | Lightweight TypeScript client for building and managing API queries with chainable interface | [docs](https://eljijuna.github.io/query-client/) |
-| [BitbucketDataCenterApiClient](https://github.com/ElJijuna/BitbucketDataCenterApiClient) | TypeScript client for Bitbucket Data Center REST API with zero runtime dependencies | [docs](https://eljijuna.github.io/BitbucketDataCenterApiClient/) |
+| [useQuery](https://github.com/ElJijuna/useQuery) | Lightweight query client with caching, garbage collection, retry logic, and subscription-based updates | — |
 | [MonitoringTool](https://github.com/ElJijuna/MonitoringTool) | Lightweight solution for tracking system metrics with configurable alerts and visualization | [docs](https://eljijuna.github.io/MonitoringTool/) |
 | [MonitoringTool-DB](https://github.com/ElJijuna/MonitoringTool-DB) | MonitoringTool database | — |
-| [MyNpmLens](https://github.com/ElJijuna/MyNpmLens) | Bookmark npm packages and fetch their data via APIs, with clean views of versions, dependencies, and metadata | [app](https://eljijuna.github.io/MyNpmLens/) |
+| [MyNpmLens](https://github.com/ElJijuna/MyNpmLens) | PWA to track and monitor your favourite npm packages at a glance | [Npm Lens](https://npm-lens.app/) |
 | [NpmLensGnome](https://github.com/ElJijuna/NpmLensGnome) | NpmLens as a GNOME app | — |
 | [NpmLensGnomeExtension](https://github.com/ElJijuna/NpmLensGnomeExtension) | NpmLens as a GNOME Shell extension | — |
-| [vite-magic-tree-shaking](https://github.com/ElJijuna/vite-magic-tree-shaking) | Auto-generate tree-shakeable lib entries for Vite build | [docs](https://eljijuna.github.io/vite-magic-tree-shaking/) |
-| [vite-legacy-interop](https://github.com/ElJijuna/vite-legacy-interop) | Vite plugin for legacy interop | [docs](https://eljijuna.github.io/vite-legacy-interop/) |
+| [vite-magic-tree-shaking](https://github.com/ElJijuna/vite-magic-tree-shaking) | Auto-generate tree-shakeable lib entries for Vite build.lib.entry | [docs](https://eljijuna.github.io/vite-magic-tree-shaking/) |
+| [vite-legacy-interop](https://github.com/ElJijuna/vite-legacy-interop) | Vite plugin for seamless legacy module interop | [docs](https://eljijuna.github.io/vite-legacy-interop/) |
 | [vite-legacy-pass-through](https://github.com/ElJijuna/vite-legacy-pass-through) | Vite plugin to pass through legacy assets without transformation | [docs](https://eljijuna.github.io/vite-legacy-pass-through/) |
+| [BitbucketDataCenterApiClient](https://github.com/ElJijuna/BitbucketDataCenterApiClient) | TypeScript client for Bitbucket Data Center REST API with zero runtime dependencies | [docs](https://eljijuna.github.io/BitbucketDataCenterApiClient/) |
 | [BlackDuckApiClient](https://github.com/ElJijuna/BlackDuckApiClient) | TypeScript client for the Black Duck REST API | — |
-| [BragiUI](https://github.com/ElJijuna/BragiUI) | UI component library | — |
-| [typedoc-gnome-template](https://github.com/ElJijuna/typedoc-gnome-template) | TypeDoc theme following GNOME design guidelines | — |
+| [super-configs](https://github.com/ElJijuna/super-configs) | Shared configurations for ESLint, Prettier, Jest, and more | — |
+| [typedoc-gnome-template](https://github.com/ElJijuna/typedoc-gnome-template) | TypeDoc theme with GNOME visual identity | — |
 | [typedoc-action](https://github.com/ElJijuna/typedoc-action) | GitHub Action for generating TypeDoc documentation | — |
 | [Developer-Portal](https://github.com/ElJijuna/Developer-Portal) | Developer portal | — |
 
@@ -56,6 +60,16 @@ Software Engineer focused on building clean, reusable solutions with modern Java
 | [@gnome-ui/charts](https://www.npmjs.com/package/@gnome-ui/charts) | Chart components for @gnome-ui/react with Adwaita styling |
 | [@gnome-ui/hooks](https://www.npmjs.com/package/@gnome-ui/hooks) | React hooks exposing @gnome-ui/platform APIs |
 | [@gnome-ui/platform](https://www.npmjs.com/package/@gnome-ui/platform) | TypeScript API layer for GNOME host process communication |
+| [@gnome-ui/layout](https://www.npmjs.com/package/@gnome-ui/layout) | Full-page layout shell components following the GNOME Human Interface Guidelines |
+
+#### api-hooks
+
+| Package | Description |
+|---------|-------------|
+| [@api-hooks/bp](https://www.npmjs.com/package/@api-hooks/bp) | React hooks for the Bundlephobia API, built on @tanstack/react-query |
+| [@api-hooks/gh](https://www.npmjs.com/package/@api-hooks/gh) | React hooks for the GitHub API, built on @tanstack/react-query |
+| [@api-hooks/npm](https://www.npmjs.com/package/@api-hooks/npm) | React hooks for the npm registry API, built on @tanstack/react-query |
+| [@api-hooks/osv](https://www.npmjs.com/package/@api-hooks/osv) | React hooks for the OSV (Open Source Vulnerabilities) API, built on @tanstack/react-query |
 
 #### API Clients
 
