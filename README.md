@@ -31,8 +31,8 @@ I usually orbit around four ideas:
 | Track | What I am building | Repositories |
 |---|---|---|
 | **Runtime insight** | Monitoring, metrics, package visibility, audit reports | [`monitor-api`](https://github.com/ElJijuna/monitor-api), [`MonitoringTool`](https://github.com/ElJijuna/MonitoringTool), [`MyNpmLens`](https://github.com/ElJijuna/MyNpmLens), [`web-audit-action`](https://github.com/ElJijuna/web-audit-action) |
-| **API clients** | Zero-dependency, typed clients for public and enterprise APIs | [`github-api-client`](https://github.com/ElJijuna/github-api-client), [`npmjs-api-client`](https://github.com/ElJijuna/npmjs-api-client), [`BitbucketDataCenterApiClient`](https://github.com/ElJijuna/BitbucketDataCenterApiClient), [`cwe-api-client`](https://github.com/ElJijuna/cwe-api-client), [`bundlephobia-api-client`](https://github.com/ElJijuna/bundlephobia-api-client) |
-| **React + UI** | Component systems, hooks, GNOME-inspired UI, floating widgets | [`gnome-ui`](https://github.com/ElJijuna/gnome-ui), [`api-hooks`](https://github.com/ElJijuna/api-hooks), [`floaty-widget`](https://github.com/ElJijuna/floaty-widget), [`BragiUI`](https://github.com/ElJijuna/BragiUI) |
+| **API clients** | Zero-dependency, typed clients for public and enterprise APIs | [`github-api-client`](https://github.com/ElJijuna/github-api-client), [`npmjs-api-client`](https://github.com/ElJijuna/npmjs-api-client), [`BitbucketDataCenterApiClient`](https://github.com/ElJijuna/BitbucketDataCenterApiClient), [`argocd-api-client`](https://github.com/ElJijuna/argocd-api-client), [`nuget-api-client`](https://github.com/ElJijuna/nuget-api-client) |
+| **React + UI** | Component systems, hooks, GNOME-inspired UI, microfrontend orchestration | [`gnome-ui`](https://github.com/ElJijuna/gnome-ui), [`api-hooks`](https://github.com/ElJijuna/api-hooks), [`open-comp`](https://github.com/ElJijuna/open-comp), [`open-comp-microfrontends`](https://github.com/ElJijuna/open-comp-microfrontends), [`floaty-widget`](https://github.com/ElJijuna/floaty-widget) |
 | **Build utilities** | Vite plugins, shared configs, docs tooling, templates | [`vite-magic-tree-shaking`](https://github.com/ElJijuna/vite-magic-tree-shaking), [`vite-legacy-interop`](https://github.com/ElJijuna/vite-legacy-interop), [`vite-legacy-pass-through`](https://github.com/ElJijuna/vite-legacy-pass-through), [`super-configs`](https://github.com/ElJijuna/super-configs), [`typedoc-gnome-template`](https://github.com/ElJijuna/typedoc-gnome-template) |
 
 ---
@@ -45,6 +45,8 @@ I usually orbit around four ideas:
 |---|---|---|
 | [`gnome-ui`](https://github.com/ElJijuna/gnome-ui) | React monorepo bringing GNOME Human Interface Guidelines to the web: core, icons, layout, hooks, charts, platform, and React components. | [gnome-ui.org](http://gnome-ui.org/) |
 | [`api-hooks`](https://github.com/ElJijuna/api-hooks) | Typed React hooks for popular APIs, built on TanStack Query with consistent async state management. | [docs](https://eljijuna.github.io/api-hooks/) |
+| [`open-comp`](https://github.com/ElJijuna/open-comp) | Microfrontend orchestrator — loads remote Module Federation components and renders them safely in a React app. | - |
+| [`open-comp-microfrontends`](https://github.com/ElJijuna/open-comp-microfrontends) | Monorepo of `@open-comp/*` microfrontend widgets consumable via the `open-comp` orchestrator or as npm packages. | - |
 | [`floaty-widget`](https://github.com/ElJijuna/floaty-widget) | Floating component with drag, collapse, expand, and pin behavior. | [docs](https://eljijuna.github.io/floaty-widget/) |
 | [`BragiUI`](https://github.com/ElJijuna/BragiUI) | React component library built with Vite. | - |
 
@@ -74,6 +76,8 @@ I usually orbit around four ideas:
 | [`dockerhub-api-client`](https://github.com/ElJijuna/dockerhub-api-client) | Client workbench for Docker Hub APIs. | - |
 | [`pypi-api-client`](https://github.com/ElJijuna/pypi-api-client) | Client workbench for PyPI APIs. | - |
 | [`SnykApiClient`](https://github.com/ElJijuna/SnykApiClient) | Client workbench for Snyk APIs. | - |
+| [`nuget-api-client`](https://github.com/ElJijuna/nuget-api-client) | TypeScript client for the NuGet REST API. | - |
+| [`argocd-api-client`](https://github.com/ElJijuna/argocd-api-client) | TypeScript client for the Argo CD REST API. | - |
 
 ### Build, Docs, and Automation
 
@@ -117,6 +121,8 @@ Published and maintained packages for `pilmee` on npm. The list below comes from
 | [`@api-hooks/npm`](https://www.npmjs.com/package/@api-hooks/npm) | `2.3.0` | 1,375 | React hooks for the npm registry API, built on TanStack Query. |
 | [`@api-hooks/osv`](https://www.npmjs.com/package/@api-hooks/osv) | `1.7.0` | 857 | React hooks for the OSV API, built on TanStack Query. |
 | [`floaty-widget`](https://www.npmjs.com/package/floaty-widget) | `1.1.3` | 29 | Floating component with drag, collapse, expand, and pin functionality. |
+| [`open-comp`](https://www.npmjs.com/package/open-comp) | `0.0.1` | 162 | Microfrontend orchestrator for loading remote Module Federation components in React. |
+| [`@open-comp/gh`](https://www.npmjs.com/package/@open-comp/gh) | `0.1.0` | 86 | GitHub-scoped microfrontend widgets for the open-comp ecosystem. |
 | [`@morph-ui/core`](https://www.npmjs.com/package/@morph-ui/core) | `2.0.6` | 906 | CSS design system for web UI components. |
 | [`@agilegob/core`](https://www.npmjs.com/package/@agilegob/core) | `0.0.6` | 99 | Agilegob core package. |
 | [`@agilegob/components`](https://www.npmjs.com/package/@agilegob/components) | `0.0.6` | 41 | Agilegob component package. |
@@ -137,6 +143,8 @@ Published and maintained packages for `pilmee` on npm. The list below comes from
 | [`dockerhub-api-client`](https://www.npmjs.com/package/dockerhub-api-client) | `1.0.0` | 28 | TypeScript client for the Docker Hub REST API. |
 | [`x-api-client`](https://www.npmjs.com/package/x-api-client) | `0.0.1` | 28 | X API client workbench. |
 | [`jira-datacenter-api-client`](https://www.npmjs.com/package/jira-datacenter-api-client) | `1.0.0` | 16 | TypeScript client for Jira Data Center REST API. |
+| [`argocd-api-client`](https://www.npmjs.com/package/argocd-api-client) | `1.4.0` | 1,162 | TypeScript client for the Argo CD REST API. |
+| [`nuget-api-client`](https://www.npmjs.com/package/nuget-api-client) | `1.0.0` | 49 | TypeScript client for the NuGet REST API. |
 | [`pypi-api-client`](https://www.npmjs.com/package/pypi-api-client) | `0.0.1` | 0 | PyPI API client workbench. |
 
 ### Monitoring, Data, and Developer Tools
@@ -204,8 +212,8 @@ Published and maintained packages for `pilmee` on npm. The list below comes from
 | Category | Repositories |
 |---|---|
 | **Design systems** | [`gnome-ui`](https://github.com/ElJijuna/gnome-ui), [`BragiUI`](https://github.com/ElJijuna/BragiUI), [`very-simple-icons`](https://github.com/ElJijuna/very-simple-icons) |
-| **React utilities** | [`api-hooks`](https://github.com/ElJijuna/api-hooks), [`floaty-widget`](https://github.com/ElJijuna/floaty-widget), [`react-base-app`](https://github.com/ElJijuna/react-base-app) |
-| **API clients** | [`github-api-client`](https://github.com/ElJijuna/github-api-client), [`npmjs-api-client`](https://github.com/ElJijuna/npmjs-api-client), [`bundlephobia-api-client`](https://github.com/ElJijuna/bundlephobia-api-client), [`cwe-api-client`](https://github.com/ElJijuna/cwe-api-client), [`BitbucketDataCenterApiClient`](https://github.com/ElJijuna/BitbucketDataCenterApiClient), [`CheckmarxApiClient`](https://github.com/ElJijuna/CheckmarxApiClient), [`BlackDuckApiClient`](https://github.com/ElJijuna/BlackDuckApiClient), [`JiraDataCenterApiClient`](https://github.com/ElJijuna/JiraDataCenterApiClient), [`osv-api-client`](https://github.com/ElJijuna/osv-api-client), [`dockerhub-api-client`](https://github.com/ElJijuna/dockerhub-api-client), [`pypi-api-client`](https://github.com/ElJijuna/pypi-api-client), [`SnykApiClient`](https://github.com/ElJijuna/SnykApiClient) |
+| **React utilities** | [`api-hooks`](https://github.com/ElJijuna/api-hooks), [`open-comp`](https://github.com/ElJijuna/open-comp), [`open-comp-microfrontends`](https://github.com/ElJijuna/open-comp-microfrontends), [`floaty-widget`](https://github.com/ElJijuna/floaty-widget), [`react-base-app`](https://github.com/ElJijuna/react-base-app) |
+| **API clients** | [`github-api-client`](https://github.com/ElJijuna/github-api-client), [`npmjs-api-client`](https://github.com/ElJijuna/npmjs-api-client), [`bundlephobia-api-client`](https://github.com/ElJijuna/bundlephobia-api-client), [`cwe-api-client`](https://github.com/ElJijuna/cwe-api-client), [`BitbucketDataCenterApiClient`](https://github.com/ElJijuna/BitbucketDataCenterApiClient), [`argocd-api-client`](https://github.com/ElJijuna/argocd-api-client), [`nuget-api-client`](https://github.com/ElJijuna/nuget-api-client), [`CheckmarxApiClient`](https://github.com/ElJijuna/CheckmarxApiClient), [`BlackDuckApiClient`](https://github.com/ElJijuna/BlackDuckApiClient), [`JiraDataCenterApiClient`](https://github.com/ElJijuna/JiraDataCenterApiClient), [`osv-api-client`](https://github.com/ElJijuna/osv-api-client), [`dockerhub-api-client`](https://github.com/ElJijuna/dockerhub-api-client), [`SnykApiClient`](https://github.com/ElJijuna/SnykApiClient) |
 | **Monitoring and audits** | [`monitor-api`](https://github.com/ElJijuna/monitor-api), [`MonitoringTool`](https://github.com/ElJijuna/MonitoringTool), [`MonitoringTool-DB`](https://github.com/ElJijuna/MonitoringTool-DB), [`audit-report-html`](https://github.com/ElJijuna/audit-report-html), [`web-audit-action`](https://github.com/ElJijuna/web-audit-action), [`Npm-Audit-Reports`](https://github.com/ElJijuna/Npm-Audit-Reports) |
 | **Build tooling** | [`vite-magic-tree-shaking`](https://github.com/ElJijuna/vite-magic-tree-shaking), [`vite-legacy-interop`](https://github.com/ElJijuna/vite-legacy-interop), [`vite-legacy-pass-through`](https://github.com/ElJijuna/vite-legacy-pass-through), [`typescript-library-multiple-workspace-template`](https://github.com/ElJijuna/typescript-library-multiple-workspace-template) |
 | **Configuration and docs** | [`super-configs`](https://github.com/ElJijuna/super-configs), [`typedoc-gnome-template`](https://github.com/ElJijuna/typedoc-gnome-template), [`typedoc-action`](https://github.com/ElJijuna/typedoc-action), [`Developer-Portal`](https://github.com/ElJijuna/Developer-Portal) |
@@ -228,4 +236,4 @@ Guitar and trumpet player. Tennis. Painting. Usually somewhere between a reusabl
 
 ---
 
-<sub>Updated from public GitHub and npm metadata on 2026-05-27.</sub>
+<sub>Updated from public GitHub and npm metadata on 2026-06-24.</sub>
