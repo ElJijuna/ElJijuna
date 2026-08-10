@@ -1,4 +1,5 @@
 import "@gnome-ui/react/styles";
+import { useDeferredValue, useState } from "react";
 import {
   ActionRow,
   Avatar,
@@ -6,7 +7,6 @@ import {
   Banner,
   BoxedList,
   Button,
-  Card,
   Chip,
   Clamp,
   HeaderBar,
@@ -18,7 +18,8 @@ import {
   WrapBox,
   useBreakpoint,
 } from "@gnome-ui/react";
-import { GoNext, OpenMenu, Star } from "@gnome-ui/icons";
+import { GoNext, OpenMenu } from "@gnome-ui/icons";
+import catalogData from "./catalog-data.json";
 import "./app.css";
 
 // ── Data ──────────────────────────────────────────────────────────────────────
@@ -26,15 +27,21 @@ import "./app.css";
 const profile = {
   name: "Pilmee",
   title: "Software Engineer",
-  bio: "Focused on building clean, reusable solutions with modern JavaScript ecosystems.",
+  bio: "Building small, sharp TypeScript tools: typed API clients, reusable UI, monitoring, and developer infrastructure.",
   location: "Pluton",
   avatar: "https://avatars.githubusercontent.com/u/104101281?v=4",
   github: "https://github.com/ElJijuna",
   linkedin: "https://www.linkedin.com/in/pilmee/",
   email: "pilmee@gmail.com",
-  twitter: "https://twitter.com/pilmee",
+  twitter: "https://x.com/pilmee",
   hobbies: ["Guitar & trumpet", "Tennis", "Painting"],
 };
+
+const profileStats = [
+  { value: "89", label: "public repos" },
+  { value: "86", label: "npm packages" },
+  { value: "TypeScript", label: "main ecosystem" },
+] as const;
 
 const skills = [
   { name: "TypeScript", level: 0.9 },
@@ -45,128 +52,11 @@ const skills = [
   { name: "Git", level: 0.85 },
 ];
 
-const projects = [
-  {
-    name: "gnome-ui",
-    description:
-      "React monorepo bringing GNOME HIG to the web · core, react, hooks, charts, layout, platform, icons",
-    language: "TypeScript",
-    stars: 0,
-    url: "https://github.com/ElJijuna/gnome-ui",
-  },
-  {
-    name: "api-hooks",
-    description:
-      "React hooks built on TanStack Query for API integrations · bp, gh, npm, osv",
-    language: "TypeScript",
-    stars: 0,
-    url: "https://github.com/ElJijuna/api-hooks",
-  },
-  {
-    name: "BragiUI",
-    description: "React component library built with Vite",
-    language: "TypeScript",
-    stars: 0,
-    url: "https://github.com/ElJijuna/BragiUI",
-  },
-  {
-    name: "SSignal",
-    description: "Signal pattern implementation for reactive state management",
-    language: "TypeScript",
-    stars: 0,
-    url: "https://github.com/ElJijuna/SSignal",
-  },
-  {
-    name: "floaty",
-    description:
-      "Floating widget with drag, collapse/expand, and pin functionality",
-    language: "TypeScript",
-    stars: 0,
-    url: "https://github.com/ElJijuna/floaty",
-  },
-  {
-    name: "infinity-fetch",
-    description:
-      "Configurable recursive/infinite fetch utility for paginated APIs — Node.js and browser",
-    language: "TypeScript",
-    stars: 0,
-    url: "https://github.com/ElJijuna/infinity-fetch",
-  },
-  {
-    name: "MonitoringTool",
-    description:
-      "Lightweight solution for tracking system metrics and performance",
-    language: "TypeScript",
-    stars: 1,
-    url: "https://github.com/ElJijuna/MonitoringTool",
-  },
-  {
-    name: "express-memorize",
-    description:
-      "Express middleware for caching responses with customizable strategies",
-    language: "TypeScript",
-    stars: 0,
-    url: "https://github.com/ElJijuna/express-memorize",
-  },
-  {
-    name: "useQuery",
-    description:
-      "Lightweight query client with caching, garbage collection, retry logic, and subscriptions",
-    language: "TypeScript",
-    stars: 1,
-    url: "https://github.com/ElJijuna/useQuery",
-  },
-  {
-    name: "MyNpmLens",
-    description: "PWA to track and monitor your favourite npm packages at a glance",
-    language: "TypeScript",
-    stars: 0,
-    url: "https://github.com/ElJijuna/MyNpmLens",
-  },
-  {
-    name: "vite-legacy-interop",
-    description: "Vite plugin for seamless legacy module interop",
-    language: "TypeScript",
-    stars: 0,
-    url: "https://github.com/ElJijuna/vite-legacy-interop",
-  },
-  {
-    name: "vite-magic-tree-shaking",
-    description:
-      "Auto-generate tree-shakeable lib entries for Vite build.lib.entry",
-    language: "TypeScript",
-    stars: 0,
-    url: "https://github.com/ElJijuna/vite-magic-tree-shaking",
-  },
-  {
-    name: "vite-legacy-pass-through",
-    description: "Vite plugin to pass through legacy assets without transformation",
-    language: "TypeScript",
-    stars: 0,
-    url: "https://github.com/ElJijuna/vite-legacy-pass-through",
-  },
-  {
-    name: "typedoc-gnome-template",
-    description: "TypeDoc theme with GNOME visual identity",
-    language: "TypeScript",
-    stars: 0,
-    url: "https://github.com/ElJijuna/typedoc-gnome-template",
-  },
-  {
-    name: "super-configs",
-    description: "Shared configurations for ESLint, Prettier, Jest, and more",
-    language: "TypeScript",
-    stars: 0,
-    url: "https://github.com/ElJijuna/super-configs",
-  },
-  {
-    name: "BitbucketDataCenterApiClient",
-    description: "TypeScript client for Bitbucket Data Center REST API",
-    language: "TypeScript",
-    stars: 0,
-    url: "https://github.com/ElJijuna/BitbucketDataCenterApiClient",
-  },
-] as const;
+const repositories = catalogData.repositories;
+const npmPackages = catalogData.npmPackages;
+const repositoryLanguages = Array.from(
+  new Set(repositories.map((repository) => repository.language)),
+).sort((first, second) => first.localeCompare(second));
 
 // ── Utils ─────────────────────────────────────────────────────────────────────
 
@@ -186,8 +76,11 @@ function Header() {
       <Button variant="flat" onClick={() => scrollTo("about")}>
         About
       </Button>
-      <Button variant="flat" onClick={() => scrollTo("projects")}>
-        Projects
+      <Button variant="flat" onClick={() => scrollTo("repositories")}>
+        Repositories
+      </Button>
+      <Button variant="flat" onClick={() => scrollTo("packages")}>
+        npm Packages
       </Button>
       <Button
         variant="suggested"
@@ -215,8 +108,11 @@ function Header() {
               <Button variant="flat" onClick={() => scrollTo("about")}>
                 About
               </Button>
-              <Button variant="flat" onClick={() => scrollTo("projects")}>
-                Projects
+              <Button variant="flat" onClick={() => scrollTo("repositories")}>
+                Repositories
+              </Button>
+              <Button variant="flat" onClick={() => scrollTo("packages")}>
+                npm Packages
               </Button>
               <Button
                 variant="suggested"
@@ -238,7 +134,7 @@ function Hero() {
     <section id="home" className="hero-section">
       <Avatar src={profile.avatar} name={profile.name} size="xl" />
 
-      <Badge variant="success">Available for work</Badge>
+      <Badge variant="success">Open-source builder</Badge>
 
       <Text variant="large-title" as="h1">
         Hi, I'm {profile.name}
@@ -251,6 +147,17 @@ function Hero() {
       <Text variant="body" color="dim" as="p" className="hero-bio">
         {profile.bio}
       </Text>
+
+      <div className="profile-stats" aria-label="Public profile statistics">
+        {profileStats.map((stat) => (
+          <div className="profile-stat" key={stat.label}>
+            <Text variant="heading">{stat.value}</Text>
+            <Text variant="caption" color="dim">
+              {stat.label}
+            </Text>
+          </div>
+        ))}
+      </div>
 
       <div className="hero-actions">
         <Button
@@ -291,8 +198,9 @@ function About() {
         </Text>
         <Text variant="body" color="dim" as="p" className="section-description">
           Software Engineer based in <strong>{profile.location}</strong>. I
-          build clean, reusable TypeScript libraries and developer tools that
-          prioritize simplicity and maintainability.
+          build typed API clients, reusable interface systems, monitoring
+          libraries, and developer tools that prioritize small APIs and low
+          runtime overhead.
         </Text>
 
         <div className="about-grid">
@@ -365,48 +273,217 @@ function About() {
   );
 }
 
-// ── Projects ──────────────────────────────────────────────────────────────────
+// ── Public catalogue ───────────────────────────────────────────────────────────
 
-function Projects() {
+function RepositoryCatalog() {
+  const [query, setQuery] = useState("");
+  const [language, setLanguage] = useState("All");
+  const deferredQuery = useDeferredValue(query.trim().toLocaleLowerCase());
+  const visibleRepositories = repositories.filter((repository) => {
+    const matchesLanguage =
+      language === "All" || repository.language === language;
+    const matchesQuery =
+      deferredQuery.length === 0 ||
+      repository.name.toLocaleLowerCase().includes(deferredQuery) ||
+      repository.description.toLocaleLowerCase().includes(deferredQuery);
+
+    return matchesLanguage && matchesQuery;
+  });
+
   return (
-    <section id="projects" className="section">
-      <Clamp maximumSize={1040}>
+    <section id="repositories" className="section">
+      <Clamp maximumSize={1180}>
         <Text variant="title-2" as="h2" className="section-title">
-          Projects
+          Public Repositories
         </Text>
-        <Text variant="body" color="dim" className="section-description">
-          Open source tools and libraries I've built.
+        <Text
+          variant="body"
+          color="dim"
+          as="p"
+          className="section-description"
+        >
+          All {repositories.length} public GitHub repositories, including
+          source projects, experiments, and forks.
         </Text>
 
-        <div className="projects-grid">
-          {projects.map((project) => (
-            <Card
-              key={project.name}
-              padding="lg"
-              interactive
-              className="project-card"
-              onClick={() => openUrl(project.url)}
+        <div className="catalog-toolbar">
+          <label className="catalog-field" htmlFor="repository-search">
+            <span>Search repositories</span>
+            <input
+              id="repository-search"
+              type="search"
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="Name or description"
+            />
+          </label>
+
+          <label className="catalog-field" htmlFor="repository-language">
+            <span>Language</span>
+            <select
+              id="repository-language"
+              value={language}
+              onChange={(event) => setLanguage(event.target.value)}
             >
-              <div className="project-card-body">
-                <Text variant="heading" as="h3">
-                  {project.name}
-                </Text>
-                <Text variant="body" color="dim">
-                  {project.description}
-                </Text>
-              </div>
-              <div className="project-card-footer">
-                <Badge variant="neutral">{project.language}</Badge>
-                {project.stars > 0 && (
-                  <span className="project-stars">
-                    <Icon icon={Star} size="sm" label="stars" />
-                    <Text variant="caption">{project.stars}</Text>
-                  </span>
-                )}
-              </div>
-            </Card>
-          ))}
+              <option value="All">All languages</option>
+              {repositoryLanguages.map((repositoryLanguage) => (
+                <option value={repositoryLanguage} key={repositoryLanguage}>
+                  {repositoryLanguage}
+                </option>
+              ))}
+            </select>
+          </label>
         </div>
+
+        <Text
+          variant="caption"
+          color="dim"
+          as="p"
+          className="catalog-result-count"
+          role="status"
+          aria-live="polite"
+        >
+          Showing {visibleRepositories.length} of {repositories.length}
+        </Text>
+
+        {visibleRepositories.length === 0 ? (
+          <Banner variant="info">No repositories match these filters.</Banner>
+        ) : (
+          <ul className="catalog-grid">
+            {visibleRepositories.map((repository) => (
+              <li className="catalog-item" key={repository.name}>
+                <article className="catalog-card">
+                  <div className="catalog-card-body">
+                    <Text variant="heading" as="h3">
+                      <Link href={repository.url} external>
+                        {repository.name}
+                      </Link>
+                    </Text>
+                    <Text variant="body" color="dim" as="p">
+                      {repository.description}
+                    </Text>
+                  </div>
+
+                  <div className="catalog-card-footer">
+                    <div className="catalog-badges">
+                      <Badge variant="neutral">{repository.language}</Badge>
+                      <Badge variant="neutral">
+                        {repository.fork ? "Fork" : "Source"}
+                      </Badge>
+                      {repository.archived ? (
+                        <Badge variant="warning">Archived</Badge>
+                      ) : null}
+                    </div>
+
+                    <div className="catalog-meta">
+                      <Text variant="caption" color="dim">
+                        {repository.stars} stars
+                      </Text>
+                      <Text variant="caption" color="dim">
+                        Updated{" "}
+                        <time dateTime={repository.updatedAt}>
+                          {repository.updatedAt}
+                        </time>
+                      </Text>
+                      {repository.homepage ? (
+                        <Link href={repository.homepage} external>
+                          Live / docs
+                        </Link>
+                      ) : null}
+                    </div>
+                  </div>
+                </article>
+              </li>
+            ))}
+          </ul>
+        )}
+      </Clamp>
+    </section>
+  );
+}
+
+function NpmPackageCatalog() {
+  const [query, setQuery] = useState("");
+  const deferredQuery = useDeferredValue(query.trim().toLocaleLowerCase());
+  const visiblePackages = npmPackages.filter(
+    (npmPackage) =>
+      deferredQuery.length === 0 ||
+      npmPackage.name.toLocaleLowerCase().includes(deferredQuery) ||
+      npmPackage.description.toLocaleLowerCase().includes(deferredQuery),
+  );
+
+  return (
+    <section id="packages" className="section-alt">
+      <Clamp maximumSize={1180}>
+        <Text variant="title-2" as="h2" className="section-title">
+          Published npm Packages
+        </Text>
+        <Text
+          variant="body"
+          color="dim"
+          as="p"
+          className="section-description"
+        >
+          All {npmPackages.length} public packages returned for maintainer
+          <code> pilmee</code>, ordered by latest publication.
+        </Text>
+
+        <div className="catalog-toolbar catalog-toolbar-single">
+          <label className="catalog-field" htmlFor="package-search">
+            <span>Search npm packages</span>
+            <input
+              id="package-search"
+              type="search"
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="Package name or description"
+            />
+          </label>
+        </div>
+
+        <Text
+          variant="caption"
+          color="dim"
+          as="p"
+          className="catalog-result-count"
+          role="status"
+          aria-live="polite"
+        >
+          Showing {visiblePackages.length} of {npmPackages.length}
+        </Text>
+
+        {visiblePackages.length === 0 ? (
+          <Banner variant="info">No npm packages match this search.</Banner>
+        ) : (
+          <ul className="catalog-grid">
+            {visiblePackages.map((npmPackage) => (
+              <li className="catalog-item" key={npmPackage.name}>
+                <article className="catalog-card">
+                  <div className="catalog-card-body">
+                    <Text variant="heading" as="h3">
+                      <Link href={npmPackage.url} external>
+                        {npmPackage.name}
+                      </Link>
+                    </Text>
+                    <Text variant="body" color="dim" as="p">
+                      {npmPackage.description}
+                    </Text>
+                  </div>
+
+                  <div className="catalog-card-footer">
+                    <Badge variant="neutral">v{npmPackage.version}</Badge>
+                    <Text variant="caption" color="dim">
+                      Published{" "}
+                      <time dateTime={npmPackage.publishedAt}>
+                        {npmPackage.publishedAt}
+                      </time>
+                    </Text>
+                  </div>
+                </article>
+              </li>
+            ))}
+          </ul>
+        )}
       </Clamp>
     </section>
   );
@@ -414,7 +491,7 @@ function Projects() {
 
 function Contact() {
   return (
-    <section id="contact" className="section-alt">
+    <section id="contact" className="section">
       <Clamp maximumSize={540}>
         <Text variant="title-2" as="h2" className="section-title">
           Get in Touch
@@ -482,7 +559,8 @@ export default function App() {
       <main>
         <Hero />
         <About />
-        <Projects />
+        <RepositoryCatalog />
+        <NpmPackageCatalog />
         <Contact />
       </main>
       <Footer />

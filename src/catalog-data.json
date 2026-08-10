@@ -1,0 +1,1587 @@
+{
+  "repositories": [
+    {
+      "name": "gnome-ui",
+      "description": "gnome-ui is a React monorepo bringing GNOME Human Interface Guidelines (HIG) to the web. It includes @gnome-ui/core for components, @gnome-ui/icons for scalable SVGs, and utilities for responsive, accessible, and consistent UI design.",
+      "url": "https://github.com/ElJijuna/gnome-ui",
+      "homepage": "http://gnome-ui.org/",
+      "language": "TypeScript",
+      "stars": 1,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "name": "ReportsAutomated",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/ReportsAutomated",
+      "homepage": "",
+      "language": "Other",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "name": "blessed-components",
+      "description": "Composable, typed terminal UI components for Blessed. Build beautiful, responsive TUIs with small, testable APIs.",
+      "url": "https://github.com/ElJijuna/blessed-components",
+      "homepage": "https://eljijuna.github.io/blessed-components/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "name": "code-languages",
+      "description": "Typed, zero-dependency metadata for programming languages: names, versions, extensions, logos, i18n, detection helpers, and lazy-loadable API for developer tools, docs, IDEs, and code analysis workflows.",
+      "url": "https://github.com/ElJijuna/code-languages",
+      "homepage": "https://eljijuna.github.io/code-languages/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "name": "monitor-api",
+      "description": "Lightweight, signal-based web app monitoring library. Captures FPS, JS heap, long tasks, CLS, network requests, React renders, and custom events",
+      "url": "https://github.com/ElJijuna/monitor-api",
+      "homepage": "https://eljijuna.github.io/monitor-api/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-08-08"
+    },
+    {
+      "name": "vite-legacy-pass-through",
+      "description": "Vite plugin that marks legacy library imports as external, preventing Rolldown from transforming or bundling problematic CommonJS dependencies. Supports subpath and optional bare imports, extension exclusions, build/serve modes, and debug logging.",
+      "url": "https://github.com/ElJijuna/vite-legacy-pass-through",
+      "homepage": "https://eljijuna.github.io/vite-legacy-pass-through/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-08-07"
+    },
+    {
+      "name": "vite-magic-tree-shaking",
+      "description": "Automatically generate tree-shakeable library entries and package exports for Vite, with CLI support, collision detection, and symlink handling.",
+      "url": "https://github.com/ElJijuna/vite-magic-tree-shaking",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-08-04"
+    },
+    {
+      "name": "calendar-react",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/calendar-react",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-08-03"
+    },
+    {
+      "name": "sheet-music",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/sheet-music",
+      "homepage": "",
+      "language": "Other",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-30"
+    },
+    {
+      "name": "super-configs",
+      "description": "Group configurations of linters, prettiers, jest, etc",
+      "url": "https://github.com/ElJijuna/super-configs",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-26"
+    },
+    {
+      "name": "bichito",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/bichito",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-25"
+    },
+    {
+      "name": "baphy",
+      "description": "Monorepo of small, zero-dependency TypeScript libraries for parsing and analyzing repository metadata — monorepo detection, DORA metrics, Dockerfile FROM parsing, GitHub README metadata, and CODEOWNERS resolution. Each package ships independently to npm.",
+      "url": "https://github.com/ElJijuna/baphy",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-24"
+    },
+    {
+      "name": "api-hooks",
+      "description": "A collection of React hooks for popular APIs (npm, GitHub, Bundlephobia) built on TanStack Query. Provides typed, reusable hooks for data fetching, caching, and async state management with a simple and consistent API.",
+      "url": "https://github.com/ElJijuna/api-hooks",
+      "homepage": "https://eljijuna.github.io/api-hooks/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-24"
+    },
+    {
+      "name": "vite-legacy-interop",
+      "description": "Vite plugin that wraps legacy CJS subpath imports in ESM-compatible virtual modules, fixing CommonJS/ESM interop errors (e.g. with Rolldown) at build and serve time.",
+      "url": "https://github.com/ElJijuna/vite-legacy-interop",
+      "homepage": "https://eljijuna.github.io/vite-legacy-interop/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-22"
+    },
+    {
+      "name": "puter",
+      "description": "🌐 The Internet Computer! Free, Open-Source, and Self-Hostable.",
+      "url": "https://github.com/ElJijuna/puter",
+      "homepage": "https://puter.com",
+      "language": "JavaScript",
+      "stars": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "x-api-client",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/x-api-client",
+      "homepage": "",
+      "language": "Other",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "very-simple-icons",
+      "description": "A tiny TypeScript library that maps npm package names to \"simple-icons\" SVG brand icons, with support for scoped packages, aliases, and version suffixes.",
+      "url": "https://github.com/ElJijuna/very-simple-icons",
+      "homepage": "https://eljijuna.github.io/very-simple-icons/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "uppercase-object-keys",
+      "description": "Library that transforms the names of the properties of an object to uppercase",
+      "url": "https://github.com/ElJijuna/uppercase-object-keys",
+      "homepage": "https://www.npmjs.com/package/uppercase-object-keys",
+      "language": "JavaScript",
+      "stars": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "react-native-webview",
+      "description": "React Native Cross-Platform WebView",
+      "url": "https://github.com/ElJijuna/react-native-webview",
+      "homepage": "https://github.com/react-native-webview/react-native-webview/blob/master/docs/Getting-Started.md",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "react-native-poc",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/react-native-poc",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "react-base-app",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/react-base-app",
+      "homepage": "",
+      "language": "JavaScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "query-client",
+      "description": "Lightweight TypeScript client for building and managing API queries. Provides a simple, chainable interface with strong typing, customizable request handling, and utilities for working with REST endpoints in Node.js and browser environments.",
+      "url": "https://github.com/ElJijuna/query-client",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 1,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "pypi-api-client",
+      "description": "A lightweight TypeScript client for the PyPI REST API, offering typed access to package metadata, version info, release files, download stats, and project details from the official PyPI registry.ypeScript client for the PyPI REST API`",
+      "url": "https://github.com/ElJijuna/pypi-api-client",
+      "homepage": "https://eljijuna.github.io/pypi-api-client/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "pub-api-client",
+      "description": "TypeScript client for the pub.dev REST API. Covers package metadata, version listings, scores, and search. Works in Node.js and the browser (isomorphic). Fully typed, zero runtime dependencies.",
+      "url": "https://github.com/ElJijuna/pub-api-client",
+      "homepage": "https://eljijuna.github.io/pub-api-client/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "pilmee-mysql",
+      "description": "Library to manage mysql, using the mysql module, shortens the programming necessary to provide greater ease so the developer. ",
+      "url": "https://github.com/ElJijuna/pilmee-mysql",
+      "homepage": "https://www.npmjs.com/package/pilmee-mysql",
+      "language": "JavaScript",
+      "stars": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "osv-api-client",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/osv-api-client",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "open-comp",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/open-comp",
+      "homepage": "https://eljijuna.github.io/open-comp/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "open-comp-microfrontends",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/open-comp-microfrontends",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "nuget-api-client",
+      "description": "TypeScript client for the NuGet v3 REST API. Search packages, fetch versions, metadata, and autocomplete.",
+      "url": "https://github.com/ElJijuna/nuget-api-client",
+      "homepage": "https://eljijuna.github.io/nuget-api-client/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "npmjs-api-client",
+      "description": "TypeScript client for the npm Registry API with a clean, chainable API. Supports package metadata, versions, search, and download stats. Isomorphic (Node.js + browser), fully typed, and zero dependencies.",
+      "url": "https://github.com/ElJijuna/npmjs-api-client",
+      "homepage": "https://eljijuna.github.io/npmjs-api-client/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "monitor-ui",
+      "description": "React monitoring UI for monitor-api with a compact live metrics pill, detailed inspector panel, and full dashboard for performance, Web Vitals, network, React internals, and custom events.",
+      "url": "https://github.com/ElJijuna/monitor-ui",
+      "homepage": "https://eljijuna.github.io/monitor-ui/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "maven-api-client",
+      "description": "TypeScript client for the Maven Central Search API. Covers artifact metadata, version listings, search, and suggestions. Works in Node.js and the browser (isomorphic). Fully typed, zero runtime dependencies.",
+      "url": "https://github.com/ElJijuna/maven-api-client",
+      "homepage": "https://eljijuna.github.io/maven-api-client/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "lowercase-object-keys",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/lowercase-object-keys",
+      "homepage": "",
+      "language": "JavaScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "infinity-fetch",
+      "description": "Infinity Fetch is a lightweight JavaScript utility for making flexible, reusable HTTP requests. It simplifies data fetching with customizable options, error handling, and easy integration into modern web projects.",
+      "url": "https://github.com/ElJijuna/infinity-fetch",
+      "homepage": "https://eljijuna.github.io/infinity-fetch/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "gnome-extension-github-summary",
+      "description": "Extension to add multiple github accounts to see the contribution summary of said accounts",
+      "url": "https://github.com/ElJijuna/gnome-extension-github-summary",
+      "homepage": "",
+      "language": "Shell",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "floaty-widget",
+      "description": "A floating component with drag, collapse/expand, and pin functionality",
+      "url": "https://github.com/ElJijuna/floaty-widget",
+      "homepage": "https://eljijuna.github.io/floaty-widget/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "simple-icons",
+      "description": "SVG icons for popular brands",
+      "url": "https://github.com/ElJijuna/simple-icons",
+      "homepage": "https://simpleicons.org",
+      "language": "JavaScript",
+      "stars": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "dockerhub-api-client",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/dockerhub-api-client",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "crates-api-client",
+      "description": "TypeScript client for the [crates.io REST API](https://crates.io/). Covers crate metadata, versions, version metadata, and search. Works in **Node.js** and the **browser** (isomorphic). Fully typed, zero runtime dependencies.",
+      "url": "https://github.com/ElJijuna/crates-api-client",
+      "homepage": "https://eljijuna.github.io/crates-api-client/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "cloc-languages",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/cloc-languages",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "cache-express",
+      "description": "Effortlessly cache responses with custom timeouts, dependencies, and enhanced performance",
+      "url": "https://github.com/ElJijuna/cache-express",
+      "homepage": "",
+      "language": "JavaScript",
+      "stars": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "bundlephobia-api-client",
+      "description": "Fully typed TypeScript client for the Bundlephobia API. Isomorphic (Node.js + browser), zero dependencies, and a clean chainable API for fetching bundle size, version history, and similar packages.",
+      "url": "https://github.com/ElJijuna/bundlephobia-api-client",
+      "homepage": "https://eljijuna.github.io/bundlephobia-api-client/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "bitbucket-datacenter-gist",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/bitbucket-datacenter-gist",
+      "homepage": "",
+      "language": "JavaScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "bitbucket-api-client",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/bitbucket-api-client",
+      "homepage": "",
+      "language": "Other",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "audit-report-html",
+      "description": "reporte generado con información de npm audit",
+      "url": "https://github.com/ElJijuna/audit-report-html",
+      "homepage": "",
+      "language": "JavaScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "asmodeo",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/asmodeo",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "argocd-api-client",
+      "description": "TypeScript client for the official Argo CD REST API. Fully typed, fetch-based, supports auth tokens, AbortSignal, common Argo CD resources, docs generation, benchmarks, and semantic-release publishing.",
+      "url": "https://github.com/ElJijuna/argocd-api-client",
+      "homepage": "https://eljijuna.github.io/argocd-api-client/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "SnykApiClient",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/SnykApiClient",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "SSignal",
+      "description": "Lightweight zero-dependency reactive signal built on the native EventTarget API. Supports any value type, reactive Map mutations, updater functions, and AbortSignal integration.",
+      "url": "https://github.com/ElJijuna/SSignal",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "MyNpmLens",
+      "description": "Bookmark npm packages and fetch their data via APIs, with clean views of versions, dependencies, and metadata.",
+      "url": "https://github.com/ElJijuna/MyNpmLens",
+      "homepage": "https://eljijuna.github.io/MyNpmLens/",
+      "language": "TypeScript",
+      "stars": 1,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "MonitoringTool",
+      "description": "MonitoringTool is a lightweight solution for tracking system metrics, application performance, and resource usage. Provides configurable alerts, logging, and visualization features to help developers and administrators ensure stability and optimize operations.",
+      "url": "https://github.com/ElJijuna/MonitoringTool",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 1,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "JiraDataCenterApiClient",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/JiraDataCenterApiClient",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "ElJijuna",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/ElJijuna",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "ConfluenceDataCenterApiClient",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/ConfluenceDataCenterApiClient",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "CheckmarxApiClient",
+      "description": "Api to wrap calls to checkmarx",
+      "url": "https://github.com/ElJijuna/CheckmarxApiClient",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "BragiUI",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/BragiUI",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 1,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "BlackDuckApiClient",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/BlackDuckApiClient",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "BitbucketDataCenterApiClient",
+      "description": "TypeScript client for Bitbucket Data Center REST API. Works in Node.js and the browser, fully typed with zero runtime dependencies. Provides chainable methods for projects, repos, commits, branches, tags, pull requests, users, and webhooks.",
+      "url": "https://github.com/ElJijuna/BitbucketDataCenterApiClient",
+      "homepage": "https://eljijuna.github.io/BitbucketDataCenterApiClient/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "transform-response-model-to-model",
+      "description": "Transformation of data from one model to another model, add methods and others.",
+      "url": "https://github.com/ElJijuna/transform-response-model-to-model",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "Bash-Scripts",
+      "description": "Collection of useful Bash scripts for automating tasks, system management, and development workflows. Includes utilities for file handling, backups, environment setup, and productivity enhancements, making everyday operations faster and more efficient.",
+      "url": "https://github.com/ElJijuna/Bash-Scripts",
+      "homepage": "",
+      "language": "Shell",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "web-audit-action",
+      "description": "Generate audit reports for web applications with npm, bun, pnpm, yarn.",
+      "url": "https://github.com/ElJijuna/web-audit-action",
+      "homepage": "",
+      "language": "Other",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "test-coverage-action",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/test-coverage-action",
+      "homepage": "",
+      "language": "Other",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "name": "MonitoringTool-DB",
+      "description": "MonitoringTool database",
+      "url": "https://github.com/ElJijuna/MonitoringTool-DB",
+      "homepage": "",
+      "language": "Other",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-16"
+    },
+    {
+      "name": "express-memorize",
+      "description": "Express middleware for caching responses with customizable strategies. Provides easy-to-use memory storage, configurable expiration, and performance optimization for APIs. Ideal for speeding up repeated requests in Node.js applications.",
+      "url": "https://github.com/ElJijuna/express-memorize",
+      "homepage": "https://eljijuna.github.io/express-memorize/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-07-14"
+    },
+    {
+      "name": "lazy-npm-lens",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/lazy-npm-lens",
+      "homepage": "",
+      "language": "JavaScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-06-21"
+    },
+    {
+      "name": "hex-api-client",
+      "description": "TypeScript client for the [Hex.pm](https://hex.pm) package registry API. Covers package metadata, version listings, release details, and package search. Works in **Node.js** and the **browser** (isomorphic). Fully typed, zero runtime dependencies.",
+      "url": "https://github.com/ElJijuna/hex-api-client",
+      "homepage": "https://eljijuna.github.io/hex-api-client/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-06-21"
+    },
+    {
+      "name": "php-packagist-api-client",
+      "description": "A lightweight PHP wrapper for the Packagist API to search packages, fetch metadata, and get stats from the default PHP package repository.",
+      "url": "https://github.com/ElJijuna/php-packagist-api-client",
+      "homepage": "https://eljijuna.github.io/php-packagist-api-client/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-06-21"
+    },
+    {
+      "name": "swiftpm-api-client",
+      "description": "TypeScript client for the Swift Package Registry (SE-0292) and the Swift Package Index. Covers release listings, version metadata, Package.swift manifests, identifier lookup, and package search. Works in Node.js and the browser (isomorphic). Fully typed, zero runtime dependencies.",
+      "url": "https://github.com/ElJijuna/swiftpm-api-client",
+      "homepage": "https://eljijuna.github.io/swiftpm-api-client/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-06-19"
+    },
+    {
+      "name": "pkggo-api-client",
+      "description": "TypeScript client for Go module metadata. Uses the official Go module proxy protocol and adds helpers for pkg.go.dev URLs. Works in Node.js and browsers. Fully typed, zero runtime dependencies.",
+      "url": "https://github.com/ElJijuna/pkggo-api-client",
+      "homepage": "https://eljijuna.github.io/pkggo-api-client/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-06-16"
+    },
+    {
+      "name": "cwe-api-client",
+      "description": "TypeScript client for the MITRE CWE API with a clean, chainable API. Supports weakness lookup, categories, views, and hierarchy navigation. Isomorphic (Node.js + browser), fully typed, and zero dependencies.",
+      "url": "https://github.com/ElJijuna/cwe-api-client",
+      "homepage": "https://eljijuna.github.io/cwe-api-client/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-06-11"
+    },
+    {
+      "name": "github-api-client",
+      "description": "A lightweight Typescript client for the GitHub API that simplifies common operations such as listing repositories, branches, commits, collaborators, and files, with built-in support for token-based authentication.",
+      "url": "https://github.com/ElJijuna/github-api-client",
+      "homepage": "https://eljijuna.github.io/github-api-client/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-06-10"
+    },
+    {
+      "name": "Developer-Portal",
+      "description": "A calm developer command center for GitHub work, repositories, pull requests, CI/CD, advisories, npm packages, and activity insights in one focused PWA.",
+      "url": "https://github.com/ElJijuna/Developer-Portal",
+      "homepage": "http://developer-portal.app/",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-06-08"
+    },
+    {
+      "name": "git-api-rest",
+      "description": "Configurable REST API for querying cloned git repositories. Exposes commits, files, blame, history, branches, tags, contributors, and stats over HTTP. Includes a React dashboard with real-time API metrics.",
+      "url": "https://github.com/ElJijuna/git-api-rest",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-06-07"
+    },
+    {
+      "name": "fedora-scripts",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/fedora-scripts",
+      "homepage": "",
+      "language": "Shell",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-06-01"
+    },
+    {
+      "name": "firebase-auth",
+      "description": "application to use for authenticate with gitlab",
+      "url": "https://github.com/ElJijuna/firebase-auth",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-05-09"
+    },
+    {
+      "name": "gh-batch",
+      "description": "Batch operations for GitHub repositories using the gh CLI",
+      "url": "https://github.com/ElJijuna/gh-batch",
+      "homepage": "https://www.npmjs.com/package/gh-batch",
+      "language": "JavaScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-05-09"
+    },
+    {
+      "name": "sgsi",
+      "description": "SGSI PHP",
+      "url": "https://github.com/ElJijuna/sgsi",
+      "homepage": "",
+      "language": "HTML",
+      "stars": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-04-30"
+    },
+    {
+      "name": "typedoc-gnome-template",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/typedoc-gnome-template",
+      "homepage": "",
+      "language": "Other",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-04-28"
+    },
+    {
+      "name": "typescript-library-multiple-workspace-template",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/typescript-library-multiple-workspace-template",
+      "homepage": "",
+      "language": "Other",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-04-25"
+    },
+    {
+      "name": "NpmLensGnomeExtension",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/NpmLensGnomeExtension",
+      "homepage": "",
+      "language": "JavaScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-04-10"
+    },
+    {
+      "name": "flathub",
+      "description": "Issue tracker and new submissions",
+      "url": "https://github.com/ElJijuna/flathub",
+      "homepage": "https://docs.flathub.org/docs/for-app-authors/submission",
+      "language": "Other",
+      "stars": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-04-10"
+    },
+    {
+      "name": "NpmLensGnome",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/NpmLensGnome",
+      "homepage": "",
+      "language": "C",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-04-10"
+    },
+    {
+      "name": "typedoc-action",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/typedoc-action",
+      "homepage": "",
+      "language": "Other",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-04-07"
+    },
+    {
+      "name": "Bank-Simulator",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/Bank-Simulator",
+      "homepage": "",
+      "language": "JavaScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2025-12-08"
+    },
+    {
+      "name": "trivy-action",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/trivy-action",
+      "homepage": "",
+      "language": "Other",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2025-11-15"
+    },
+    {
+      "name": "dependency-audit-parser",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/dependency-audit-parser",
+      "homepage": "",
+      "language": "Other",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2025-10-16"
+    },
+    {
+      "name": "web-loader",
+      "description": "htppd web app ",
+      "url": "https://github.com/ElJijuna/web-loader",
+      "homepage": "",
+      "language": "JavaScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2025-10-13"
+    },
+    {
+      "name": "Npm-Audit-Reports",
+      "description": "No description provided.",
+      "url": "https://github.com/ElJijuna/Npm-Audit-Reports",
+      "homepage": "",
+      "language": "Other",
+      "stars": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2025-10-09"
+    },
+    {
+      "name": "rsa-js-php-ejemplo",
+      "description": "rsa-js-php-ejemplo",
+      "url": "https://github.com/ElJijuna/rsa-js-php-ejemplo",
+      "homepage": "",
+      "language": "Other",
+      "stars": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2018-02-07"
+    }
+  ],
+  "npmPackages": [
+    {
+      "name": "blessed-components",
+      "description": "Composable, typed terminal UI components for Blessed.",
+      "version": "1.17.0",
+      "url": "https://www.npmjs.com/package/blessed-components",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "name": "code-languages",
+      "description": "Structured metadata for programming languages.",
+      "version": "1.43.16",
+      "url": "https://www.npmjs.com/package/code-languages",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "name": "@gnome-ui/charts",
+      "description": "Chart components for @gnome-ui/react, styled with GNOME Adwaita design tokens",
+      "version": "1.36.0",
+      "url": "https://www.npmjs.com/package/@gnome-ui/charts",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "name": "@gnome-ui/react",
+      "description": "React component library following GNOME Human Interface Guidelines",
+      "version": "1.59.0",
+      "url": "https://www.npmjs.com/package/@gnome-ui/react",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "name": "@gnome-ui/hooks",
+      "description": "React hooks that expose @gnome-ui/platform APIs as idiomatic React state",
+      "version": "1.29.0",
+      "url": "https://www.npmjs.com/package/@gnome-ui/hooks",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "name": "@gnome-ui/platform",
+      "description": "TypeScript API layer for communicating with the GNOME host process from a React app",
+      "version": "1.29.0",
+      "url": "https://www.npmjs.com/package/@gnome-ui/platform",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "name": "monitor-api",
+      "description": "Lightweight, signal-based web app monitoring library. Captures FPS, memory, network, React renders, and custom events — zero dependencies beyond ssignal.",
+      "version": "1.3.0",
+      "url": "https://www.npmjs.com/package/monitor-api",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "name": "@gnome-ui/icons",
+      "description": "Framework-agnostic icon definitions for gnome-ui",
+      "version": "1.43.0",
+      "url": "https://www.npmjs.com/package/@gnome-ui/icons",
+      "publishedAt": "2026-08-07"
+    },
+    {
+      "name": "@gnome-ui/web-components",
+      "description": "Framework-agnostic GNOME UI Web Components built with native Custom Elements",
+      "version": "1.9.1",
+      "url": "https://www.npmjs.com/package/@gnome-ui/web-components",
+      "publishedAt": "2026-08-07"
+    },
+    {
+      "name": "@gnome-ui/layout",
+      "description": "Full-page layout shell components following the GNOME Human Interface Guidelines",
+      "version": "1.32.1",
+      "url": "https://www.npmjs.com/package/@gnome-ui/layout",
+      "publishedAt": "2026-08-05"
+    },
+    {
+      "name": "temporal-calendar-react",
+      "description": "Small, feature-rich, accessible calendar components for React 19 — a full React port of Cally",
+      "version": "0.2.0",
+      "url": "https://www.npmjs.com/package/temporal-calendar-react",
+      "publishedAt": "2026-07-27"
+    },
+    {
+      "name": "super-configs",
+      "description": "Shared ESLint, Biome, Bun, Commitlint, Jest, Vitest, Markdownlint, Stylelint, TypeDoc, and legacy Prettier configurations for JavaScript, TypeScript, React, CSS, and Markdown projects",
+      "version": "1.20.0",
+      "url": "https://www.npmjs.com/package/super-configs",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "name": "@api-hooks/bp",
+      "description": "React hooks for the Bundlephobia API, built on @tanstack/react-query",
+      "version": "2.7.0",
+      "url": "https://www.npmjs.com/package/@api-hooks/bp",
+      "publishedAt": "2026-07-24"
+    },
+    {
+      "name": "vite-legacy-pass-through",
+      "description": "Vite plugin to pass through legacy assets without transformation",
+      "version": "1.3.0",
+      "url": "https://www.npmjs.com/package/vite-legacy-pass-through",
+      "publishedAt": "2026-07-24"
+    },
+    {
+      "name": "vite-legacy-interop",
+      "description": "Vite plugin for legacy interop",
+      "version": "1.1.0",
+      "url": "https://www.npmjs.com/package/vite-legacy-interop",
+      "publishedAt": "2026-07-22"
+    },
+    {
+      "name": "vite-magic-tree-shaking",
+      "description": "Auto-generate tree-shakeable lib entries for Vite build.lib.entry",
+      "version": "1.1.0",
+      "url": "https://www.npmjs.com/package/vite-magic-tree-shaking",
+      "publishedAt": "2026-07-21"
+    },
+    {
+      "name": "jira-datacenter-api-client",
+      "description": "TypeScript client for Jira Data Center REST API",
+      "version": "1.3.0",
+      "url": "https://www.npmjs.com/package/jira-datacenter-api-client",
+      "publishedAt": "2026-07-19"
+    },
+    {
+      "name": "argocd-api-client",
+      "description": "TypeScript client for the Argo CD REST API",
+      "version": "1.7.0",
+      "url": "https://www.npmjs.com/package/argocd-api-client",
+      "publishedAt": "2026-07-17"
+    },
+    {
+      "name": "bitbucket-datacenter-api-client",
+      "description": "TypeScript client for Bitbucket Data Center REST API",
+      "version": "1.20.0",
+      "url": "https://www.npmjs.com/package/bitbucket-datacenter-api-client",
+      "publishedAt": "2026-07-16"
+    },
+    {
+      "name": "confluence-datacenter-api-client",
+      "description": "TypeScript client for Confluence Data Center REST API",
+      "version": "1.0.0",
+      "url": "https://www.npmjs.com/package/confluence-datacenter-api-client",
+      "publishedAt": "2026-07-15"
+    },
+    {
+      "name": "express-memorize",
+      "description": "In-memory cache middleware for Express.js. Caches GET responses with optional TTL — zero dependencies, fully typed.",
+      "version": "2.10.0",
+      "url": "https://www.npmjs.com/package/express-memorize",
+      "publishedAt": "2026-07-14"
+    },
+    {
+      "name": "@baphy/dora",
+      "description": "DORA metrics calculator — Deployment Frequency, Lead Time, Change Failure Rate, MTTR",
+      "version": "1.2.0",
+      "url": "https://www.npmjs.com/package/@baphy/dora",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "name": "@api-hooks/swiftpm",
+      "description": "React hooks for the Swift Package Registry and Swift Package Index APIs, built on @tanstack/react-query",
+      "version": "1.0.0",
+      "url": "https://www.npmjs.com/package/@api-hooks/swiftpm",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "name": "@api-hooks/hex",
+      "description": "React hooks for the Hex.pm REST API, built on @tanstack/react-query",
+      "version": "1.0.0",
+      "url": "https://www.npmjs.com/package/@api-hooks/hex",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "name": "@api-hooks/pub",
+      "description": "React hooks for the pub.dev REST API, built on @tanstack/react-query",
+      "version": "1.0.0",
+      "url": "https://www.npmjs.com/package/@api-hooks/pub",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "name": "@api-hooks/pkggo",
+      "description": "React hooks for the Go module proxy and pkg.go.dev, built on @tanstack/react-query",
+      "version": "1.0.0",
+      "url": "https://www.npmjs.com/package/@api-hooks/pkggo",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "name": "@api-hooks/crates",
+      "description": "React hooks for the crates.io REST API, built on @tanstack/react-query",
+      "version": "1.0.0",
+      "url": "https://www.npmjs.com/package/@api-hooks/crates",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "name": "@api-hooks/nuget",
+      "description": "React hooks for the NuGet REST API, built on @tanstack/react-query",
+      "version": "1.0.0",
+      "url": "https://www.npmjs.com/package/@api-hooks/nuget",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "name": "@api-hooks/maven",
+      "description": "React hooks for the Maven Central REST API, built on @tanstack/react-query",
+      "version": "1.0.0",
+      "url": "https://www.npmjs.com/package/@api-hooks/maven",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "name": "@api-hooks/packagist",
+      "description": "React hooks for the Packagist API, built on @tanstack/react-query",
+      "version": "1.1.0",
+      "url": "https://www.npmjs.com/package/@api-hooks/packagist",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "name": "@api-hooks/pypi",
+      "description": "React hooks for the PyPI API, built on @tanstack/react-query",
+      "version": "1.1.0",
+      "url": "https://www.npmjs.com/package/@api-hooks/pypi",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "name": "@api-hooks/dh",
+      "description": "React hooks for the Docker Hub API, built on @tanstack/react-query",
+      "version": "1.1.0",
+      "url": "https://www.npmjs.com/package/@api-hooks/dh",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "name": "@api-hooks/gh",
+      "description": "React hooks for the GitHub API, built on @tanstack/react-query",
+      "version": "2.6.0",
+      "url": "https://www.npmjs.com/package/@api-hooks/gh",
+      "publishedAt": "2026-07-01"
+    },
+    {
+      "name": "@api-hooks/npm",
+      "description": "React hooks for the npm registry API, built on @tanstack/react-query",
+      "version": "2.6.0",
+      "url": "https://www.npmjs.com/package/@api-hooks/npm",
+      "publishedAt": "2026-07-01"
+    },
+    {
+      "name": "infinity-fetch",
+      "description": "Configurable recursive/infinite fetch utility for paginated APIs. Works in Node.js and browsers.",
+      "version": "1.4.0",
+      "url": "https://www.npmjs.com/package/infinity-fetch",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "name": "lazy-npm-lens",
+      "description": "Keyboard-driven terminal UI for exploring npm packages",
+      "version": "0.1.0",
+      "url": "https://www.npmjs.com/package/lazy-npm-lens",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "name": "hex-api-client",
+      "description": "TypeScript client for the Hex.pm package registry API",
+      "version": "1.0.0",
+      "url": "https://www.npmjs.com/package/hex-api-client",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "name": "swiftpm-api-client",
+      "description": "TypeScript client for the Swift Package Registry and Swift Package Index APIs",
+      "version": "1.0.0",
+      "url": "https://www.npmjs.com/package/swiftpm-api-client",
+      "publishedAt": "2026-06-19"
+    },
+    {
+      "name": "@open-comp/gh",
+      "description": "GitHub-scoped open components for the open-comp ecosystem",
+      "version": "0.1.0",
+      "url": "https://www.npmjs.com/package/@open-comp/gh",
+      "publishedAt": "2026-06-18"
+    },
+    {
+      "name": "@open-comp/hello-world",
+      "description": "Dummy widget for testing the open-comp pipeline",
+      "version": "0.1.0",
+      "url": "https://www.npmjs.com/package/@open-comp/hello-world",
+      "publishedAt": "2026-06-17"
+    },
+    {
+      "name": "pub-api-client",
+      "description": "TypeScript client for the pub.dev REST API",
+      "version": "1.0.0",
+      "url": "https://www.npmjs.com/package/pub-api-client",
+      "publishedAt": "2026-06-17"
+    },
+    {
+      "name": "pkggo-api-client",
+      "description": "TypeScript client for Go module proxy and pkg.go.dev URLs",
+      "version": "1.1.0",
+      "url": "https://www.npmjs.com/package/pkggo-api-client",
+      "publishedAt": "2026-06-16"
+    },
+    {
+      "name": "crates-api-client",
+      "description": "TypeScript client for the crates.io REST API",
+      "version": "1.0.0",
+      "url": "https://www.npmjs.com/package/crates-api-client",
+      "publishedAt": "2026-06-16"
+    },
+    {
+      "name": "@gnome-ui/cli",
+      "description": "CLI utilities for keeping GNOME UI packages up to date",
+      "version": "1.0.2",
+      "url": "https://www.npmjs.com/package/@gnome-ui/cli",
+      "publishedAt": "2026-06-14"
+    },
+    {
+      "name": "@gnome-ui/core",
+      "description": "Design tokens for the GNOME UI design system (framework-agnostic)",
+      "version": "1.42.4",
+      "url": "https://www.npmjs.com/package/@gnome-ui/core",
+      "publishedAt": "2026-06-14"
+    },
+    {
+      "name": "ssignal",
+      "description": "Lightweight zero-dependency reactive signal built on the native EventTarget API. Supports any value type, reactive Map mutations, updater functions, and AbortSignal integration.",
+      "version": "1.7.0",
+      "url": "https://www.npmjs.com/package/ssignal",
+      "publishedAt": "2026-06-11"
+    },
+    {
+      "name": "cwe-api-client",
+      "description": "TypeScript client for the MITRE CWE REST API",
+      "version": "1.1.0",
+      "url": "https://www.npmjs.com/package/cwe-api-client",
+      "publishedAt": "2026-06-11"
+    },
+    {
+      "name": "open-comp",
+      "description": "",
+      "version": "0.0.1",
+      "url": "https://www.npmjs.com/package/open-comp",
+      "publishedAt": "2026-06-11"
+    },
+    {
+      "name": "@baphy/npm",
+      "description": "Detect whether a GitHub repository is a monorepo by analyzing its git tree",
+      "version": "1.2.0",
+      "url": "https://www.npmjs.com/package/@baphy/npm",
+      "publishedAt": "2026-06-08"
+    },
+    {
+      "name": "@api-hooks/osv",
+      "description": "React hooks for the OSV (Open Source Vulnerabilities) API, built on @tanstack/react-query",
+      "version": "1.5.1",
+      "url": "https://www.npmjs.com/package/@api-hooks/osv",
+      "publishedAt": "2026-06-08"
+    },
+    {
+      "name": "php-packagist-api-client",
+      "description": "TypeScript client for the Packagist REST API",
+      "version": "1.0.0",
+      "url": "https://www.npmjs.com/package/php-packagist-api-client",
+      "publishedAt": "2026-06-08"
+    },
+    {
+      "name": "maven-api-client",
+      "description": "TypeScript client for the Maven Central REST API",
+      "version": "1.0.0",
+      "url": "https://www.npmjs.com/package/maven-api-client",
+      "publishedAt": "2026-06-08"
+    },
+    {
+      "name": "nuget-api-client",
+      "description": "TypeScript client for the NuGet REST API",
+      "version": "1.0.0",
+      "url": "https://www.npmjs.com/package/nuget-api-client",
+      "publishedAt": "2026-06-07"
+    },
+    {
+      "name": "pypi-api-client",
+      "description": "TypeScript client for the PyPI REST API",
+      "version": "1.0.0",
+      "url": "https://www.npmjs.com/package/pypi-api-client",
+      "publishedAt": "2026-06-07"
+    },
+    {
+      "name": "npmjs-api-client",
+      "description": "TypeScript client for the npm Registry REST API",
+      "version": "1.9.0",
+      "url": "https://www.npmjs.com/package/npmjs-api-client",
+      "publishedAt": "2026-06-07"
+    },
+    {
+      "name": "monitor-ui",
+      "description": "3-level React monitoring UI: MiniWidget → Drawer → Dashboard",
+      "version": "2.1.0",
+      "url": "https://www.npmjs.com/package/monitor-ui",
+      "publishedAt": "2026-06-06"
+    },
+    {
+      "name": "gh-api-client",
+      "description": "A lightweight Java client for the GitHub API that simplifies common operations such as listing repositories, branches, commits, collaborators, and files, with built-in support for token-based authentication.",
+      "version": "1.16.3",
+      "url": "https://www.npmjs.com/package/gh-api-client",
+      "publishedAt": "2026-06-01"
+    },
+    {
+      "name": "bichito",
+      "description": "Animated pixel-art desktop pet for any web page",
+      "version": "0.1.0",
+      "url": "https://www.npmjs.com/package/bichito",
+      "publishedAt": "2026-06-01"
+    },
+    {
+      "name": "floaty-widget",
+      "description": "A floating component with drag, collapse/expand, and pin functionality",
+      "version": "1.4.0",
+      "url": "https://www.npmjs.com/package/floaty-widget",
+      "publishedAt": "2026-05-30"
+    },
+    {
+      "name": "dockerhub-api-client",
+      "description": "TypeScript client for the Docker Hub REST API",
+      "version": "1.0.0",
+      "url": "https://www.npmjs.com/package/dockerhub-api-client",
+      "publishedAt": "2026-05-23"
+    },
+    {
+      "name": "runtimes-info",
+      "description": "",
+      "version": "0.0.1",
+      "url": "https://www.npmjs.com/package/runtimes-info",
+      "publishedAt": "2026-05-12"
+    },
+    {
+      "name": "checkmarx-api-client",
+      "description": "TypeScript client for Checkmarx On-Premise REST API",
+      "version": "1.2.0",
+      "url": "https://www.npmjs.com/package/checkmarx-api-client",
+      "publishedAt": "2026-05-08"
+    },
+    {
+      "name": "very-simple-icons",
+      "description": "Map npm package names to simple-icons icons",
+      "version": "1.0.0",
+      "url": "https://www.npmjs.com/package/very-simple-icons",
+      "publishedAt": "2026-05-05"
+    },
+    {
+      "name": "gh-batch",
+      "description": "Batch operations for GitHub repositories using the gh CLI",
+      "version": "1.1.1",
+      "url": "https://www.npmjs.com/package/gh-batch",
+      "publishedAt": "2026-04-30"
+    },
+    {
+      "name": "bundlephobia-api-client",
+      "description": "TypeScript client for the Bundlephobia public API",
+      "version": "1.1.0",
+      "url": "https://www.npmjs.com/package/bundlephobia-api-client",
+      "publishedAt": "2026-04-16"
+    },
+    {
+      "name": "osv-api-client",
+      "description": "TypeScript client for the OSV (Open Source Vulnerabilities) REST API",
+      "version": "1.0.0",
+      "url": "https://www.npmjs.com/package/osv-api-client",
+      "publishedAt": "2026-04-13"
+    },
+    {
+      "name": "x-api-client",
+      "description": "",
+      "version": "0.0.1",
+      "url": "https://www.npmjs.com/package/x-api-client",
+      "publishedAt": "2026-04-13"
+    },
+    {
+      "name": "bitbucket-api-client",
+      "description": "",
+      "version": "0.0.1",
+      "url": "https://www.npmjs.com/package/bitbucket-api-client",
+      "publishedAt": "2026-04-13"
+    },
+    {
+      "name": "typedoc-gnome-template",
+      "description": "",
+      "version": "0.0.1",
+      "url": "https://www.npmjs.com/package/typedoc-gnome-template",
+      "publishedAt": "2026-04-07"
+    },
+    {
+      "name": "blackduck-api-client",
+      "description": "TypeScript client for the Black Duck REST API",
+      "version": "1.0.1",
+      "url": "https://www.npmjs.com/package/blackduck-api-client",
+      "publishedAt": "2026-04-05"
+    },
+    {
+      "name": "query-client",
+      "description": "A lightweight and efficient query client for managing server state in JavaScript/TypeScript applications. Features include automatic caching, garbage collection, retry logic, and subscription-based updates.",
+      "version": "1.4.0",
+      "url": "https://www.npmjs.com/package/query-client",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "name": "cloc-languages",
+      "description": "A list of languages from, colors, etc",
+      "version": "1.1.5",
+      "url": "https://www.npmjs.com/package/cloc-languages",
+      "publishedAt": "2025-10-05"
+    },
+    {
+      "name": "swagger-proxy-generator",
+      "description": "Generador de codigo ts/js de segun definicion de API en swagger",
+      "version": "0.0.1",
+      "url": "https://www.npmjs.com/package/swagger-proxy-generator",
+      "publishedAt": "2025-09-26"
+    },
+    {
+      "name": "cache-coffee-express",
+      "description": "This is a fork of \"cache-express\", with minor and specific changes to avoid caching in services that return code other than 2xx and others.",
+      "version": "1.0.1",
+      "url": "https://www.npmjs.com/package/cache-coffee-express",
+      "publishedAt": "2024-11-19"
+    },
+    {
+      "name": "@jijuna/audit-report-html",
+      "description": "html npm audit report ",
+      "version": "0.0.1",
+      "url": "https://www.npmjs.com/package/@jijuna/audit-report-html",
+      "publishedAt": "2024-05-12"
+    },
+    {
+      "name": "lowercase-object-keys",
+      "description": "Transform object keys to lowercase",
+      "version": "1.1.1",
+      "url": "https://www.npmjs.com/package/lowercase-object-keys",
+      "publishedAt": "2023-04-09"
+    },
+    {
+      "name": "web02",
+      "description": "Web02 - Rebuild",
+      "version": "9.44.12",
+      "url": "https://www.npmjs.com/package/web02",
+      "publishedAt": "2021-03-03"
+    },
+    {
+      "name": "@asmodeo/http",
+      "description": "This library contains utilities relations to queries requests to the server.",
+      "version": "1.0.4",
+      "url": "https://www.npmjs.com/package/@asmodeo/http",
+      "publishedAt": "2019-08-28"
+    },
+    {
+      "name": "@morph-ui/core",
+      "description": "Morph es un sistema de diseño web hecho en CSS que permite desarrollar componentes para Interfaces Gráficas de Usuario en la Web. Asi mismo, permite hacerlo sin depender de ningun framework de forma exclusiva en JS.",
+      "version": "2.0.6",
+      "url": "https://www.npmjs.com/package/@morph-ui/core",
+      "publishedAt": "2019-05-03"
+    },
+    {
+      "name": "@asmodeo/utils",
+      "description": "This library contains reusable utilities, functions, validations, etc.",
+      "version": "1.0.1",
+      "url": "https://www.npmjs.com/package/@asmodeo/utils",
+      "publishedAt": "2019-01-30"
+    },
+    {
+      "name": "@sunat/ruc",
+      "description": "No description provided.",
+      "version": "0.0.2",
+      "url": "https://www.npmjs.com/package/@sunat/ruc",
+      "publishedAt": "2018-09-13"
+    },
+    {
+      "name": "sunat",
+      "description": "[![Build Status](https://travis-ci.org/pilmee/SUNAT.svg?branch=master)](https://travis-ci.org/pilmee/SUNAT) [![Dependencies Status](https://david-dm.org/pilmee/SUNAT.svg)](https://david-dm.org/pilmee/SUNAT.svg) [![License: MIT](https://img.shields.io/badg",
+      "version": "0.0.1",
+      "url": "https://www.npmjs.com/package/sunat",
+      "publishedAt": "2018-09-13"
+    },
+    {
+      "name": "uppercase-object-keys",
+      "description": "Transformar claves de un objeto a mayusculas",
+      "version": "1.0.5",
+      "url": "https://www.npmjs.com/package/uppercase-object-keys",
+      "publishedAt": "2018-09-11"
+    },
+    {
+      "name": "@agilegob/components",
+      "description": "No description provided.",
+      "version": "0.0.6",
+      "url": "https://www.npmjs.com/package/@agilegob/components",
+      "publishedAt": "2018-09-11"
+    },
+    {
+      "name": "@agilegob/core",
+      "description": "No description provided.",
+      "version": "0.0.6",
+      "url": "https://www.npmjs.com/package/@agilegob/core",
+      "publishedAt": "2018-09-11"
+    },
+    {
+      "name": "pilmee-mysql",
+      "description": "Library to manage mysql, using the mysql module, shortens the programming necessary to provide greater ease so the developer. Power by @pilmee",
+      "version": "1.0.2",
+      "url": "https://www.npmjs.com/package/pilmee-mysql",
+      "publishedAt": "2018-08-17"
+    }
+  ]
+}
